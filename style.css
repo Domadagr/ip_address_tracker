@@ -1,9 +1,9 @@
 body {
-    background-color: #252627;
+    background-color: #333652;
 }
 
 #domadagr_header {
-    color: #904E55;
+    color: #fad02c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +19,29 @@ body {
 }
 
 #search {
-    background-color: #F2EFE9;
+    background-color: #90adc6;
 }
 
 button {
-    background-color: #BFB48F;
+    background-color: #90adc6;
 }
 
 #map_border {
-    background-color: #BFB48F;
+    background-color: #90adc6;
 
+}
+
+#map { height: 480px; }
+
+.header_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fad02c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header_row > div {
+    padding: 5px;
 }
